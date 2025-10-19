@@ -30,3 +30,13 @@ coverage/
 # Build outputs
 dist/
 build/
+.next/
+out/
+
+# Uploads
+public/uploads/
+
+# Next.js
+.next/
+out/
+next-env.d.ts

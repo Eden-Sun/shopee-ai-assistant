@@ -1,62 +1,53 @@
 {
-  "name": "shopee-ai-uploader",
-  "version": "1.0.0",
-  "description": "🚀 AI-powered bulk product uploader for Shopee - Upload products 10x faster with intelligent automation",
-  "main": "index.js",
+  "name": "shopee-ai-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-powered Shopee product listing assistant - Upload photos, get AI-generated descriptions, and list products instantly",
   "scripts": {
-    "start": "node shopee-ai-demo.js",
-    "upload": "node shopee-upload-product.js",
-    "upload:bulk": "node shopee-advanced.js",
-    "demo": "node shopee-ai-demo.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon shopee-ai-demo.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [
     "shopee",
     "ecommerce",
     "ai",
-    "automation",
+    "gemini",
     "product-upload",
-    "bulk-upload",
-    "api",
-    "marketplace",
-    "artificial-intelligence",
-    "seo",
-    "shopee-api",
-    "nodejs",
-    "ecommerce-automation",
-    "product-listing",
-    "ai-powered"
+    "nextjs",
+    "typescript"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Eden Sun"
   },
   "license": "MIT",
   "dependencies": {
-    "shopee-client": "^1.0.0",
-    "dotenv": "^16.0.3",
-    "axios": "^1.4.0",
-    "openai": "^4.0.0",
-    "sharp": "^0.32.0",
-    "csv-parser": "^3.0.0",
-    "winston": "^3.8.2"
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/postcss": "^4.1.14",
+    "axios": "^1.7.0",
+    "crypto-js": "^4.2.0",
+    "formidable": "^3.5.1",
+    "next": "^15.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1",
-    "eslint": "^8.45.0",
-    "prettier": "^3.0.0"
-  },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "@types/crypto-js": "^4.2.0",
+    "@types/formidable": "^3.4.0",
+    "@types/node": "^24.8.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^15.5.6",
+    "postcss": "^8",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/shopee-ai-uploader.git"
-  },
-  "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/shopee-ai-uploader/issues"
-  },
-  "homepage": "https://github.com/YOUR_USERNAME/shopee-ai-uploader#readme"
+    "url": "git+https://github.com/Eden-Sun/shopee-ai-assistant.git"
+  }
 }
