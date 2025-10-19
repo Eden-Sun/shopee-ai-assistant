@@ -1,0 +1,62 @@
+{
+  "name": "shopee-ai-uploader",
+  "version": "1.0.0",
+  "description": "🚀 AI-powered bulk product uploader for Shopee - Upload products 10x faster with intelligent automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node shopee-ai-demo.js",
+    "upload": "node shopee-upload-product.js",
+    "upload:bulk": "node shopee-advanced.js",
+    "demo": "node shopee-ai-demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon shopee-ai-demo.js"
+  },
+  "keywords": [
+    "shopee",
+    "ecommerce",
+    "ai",
+    "automation",
+    "product-upload",
+    "bulk-upload",
+    "api",
+    "marketplace",
+    "artificial-intelligence",
+    "seo",
+    "shopee-api",
+    "nodejs",
+    "ecommerce-automation",
+    "product-listing",
+    "ai-powered"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "shopee-client": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "axios": "^1.4.0",
+    "openai": "^4.0.0",
+    "sharp": "^0.32.0",
+    "csv-parser": "^3.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/shopee-ai-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/shopee-ai-uploader/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/shopee-ai-uploader#readme"
+}
